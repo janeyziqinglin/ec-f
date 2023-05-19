@@ -9,7 +9,7 @@ import { map } from 'rxjs/operators';
 })
 export class ProductService {
 
-  private baseUrl = 'http://localhost:8080/api/products';
+  private baseUrl = 'https://ec-api-msys.onrender.com';
 
   constructor(private httpClient: HttpClient) { }
 
