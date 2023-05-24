@@ -8,7 +8,7 @@
       "request": "launch",
       "preLaunchTask": "npm: start",
       // "url": "http://localhost:4200/"
-      "url": "https://ec-f.vercel.app/"
+      "url": "https://ec-f.vercel.app"
     },
     {
       "name": "ng test",
