@@ -9,6 +9,7 @@ import { map } from 'rxjs/operators';
 })
 export class ProductService {
 
+  // private baseUrl = 'http://localhost:8080/api/products';
   private baseUrl = 'http://ecommerce-demo1.us-east-1.elasticbeanstalk.com';
 
   constructor(private httpClient: HttpClient) { }
