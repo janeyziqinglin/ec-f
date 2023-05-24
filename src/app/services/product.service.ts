@@ -9,7 +9,7 @@ import { map } from 'rxjs/operators';
 })
 export class ProductService {
 
-  private baseUrl = 'https://ec-api-msys.onrender.com';
+  private baseUrl = 'http://ecommerce-demo1.us-east-1.elasticbeanstalk.com';
 
   constructor(private httpClient: HttpClient) { }
 
